@@ -1,3 +1,34 @@
+# Malagasy Customs AI Project
+
+## Project Overview
+This project is part of an initiative to develop generative AI solutions for Malagasy customs operations, focusing on task management and automation. This project is developed in collaboration with the International Monetary Fund (IMF) to enhance customs operations and digital transformation in Madagascar.
+
+## Author Information
+**Author:** Tojo Hasina RAJAONARIVO  
+**Email:** besthorizon@outlook.com  
+**Role:** AI Developer & Contributor  
+**Contribution Period:** April 2025
+
+## Project Description
+This FastAPI-based application provides a RESTful API for task management, specifically designed for integration with Malagasy customs operations. The system implements basic CRUD operations for task management with a focus on scalability and maintainability. This project is part of a larger initiative supported by the IMF to modernize customs operations in Madagascar through AI and automation.
+
+## Technical Stack
+- FastAPI
+- Pydantic
+- Python
+
+## API Endpoints
+- `POST /tasks`: Create a new task
+- `GET /tasks`: Retrieve all tasks
+
+## License
+This project is open source and available under the MIT License. See the LICENSE file for more details.
+
+## Contact
+For any inquiries regarding this project, please contact:
+- Tojo Hasina RAJAONARIVO (besthorizon@outlook.com)
+- IMF Technical Assistance Team
+
 # Document Management API
 
 A production-ready RESTful API for managing documents with deduplication support, built with FastAPI and SQLite.

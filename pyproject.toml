@@ -2,7 +2,7 @@
 name = "document-management-api"
 version = "0.1.0"
 description = "A FastAPI-based RESTful API for managing documents"
-authors = ["Tojo Hasina RAJAONARIVO <besthorizon@outook.com>"]
+authors = ["Tojo Hasina RAJAONARIVO <besthorizon@outlook.com>"]
 readme = "README.md"
 packages = [
     { include = "src" }
