@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "document-management-api"
+version = "0.1.0"
+description = "A FastAPI-based RESTful API for managing documents"
+authors = ["Tojo Hasina RAJAONARIVO <besthorizon@outook.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0"
+sqlalchemy = "^2.0.23"
+pydantic = "^2.5.2"
+pydantic-settings = "^2.1.0"
+python-multipart = "^0.0.6"
+pymupdf = "^1.23.8"
+Pillow = "^10.1.0"
+python-jose = "^3.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
