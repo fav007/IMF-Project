@@ -17,9 +17,6 @@ This FastAPI-based application provides a RESTful API for task management, speci
 - Pydantic
 - Python
 
-## API Endpoints
-- `POST /tasks`: Create a new task
-- `GET /tasks`: Retrieve all tasks
 
 ## License
 This project is open source and available under the MIT License. See the LICENSE file for more details.
@@ -36,7 +33,7 @@ A production-ready RESTful API for managing documents with deduplication support
 ## Features
 
 - Upload documents (PDF, JPG, JPEG)
-- Automatic deduplication based on SHA256 hash
+- Automatic deduplication 
 - List all documents
 - Search documents by BSC number and category
 - Download documents
